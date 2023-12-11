@@ -1,0 +1,17 @@
+<div *ngIf="!notFound" class="card-details-container">
+  <div  class="card-details">
+    <img src="{{user.avatar}}" alt="Card Image">
+    <h2>{{user.first_name}} {{user.last_name}}</h2>
+    <p>{{support.text}}  <a href="{{support.url}}">Donate</a></p>
+
+    <a href="#" class="back-button">Back</a>
+  </div>
+</div>
+<div *ngIf="notFound" class="card-details-container">
+  <div  class="card-details">
+
+    <p style="color: red;">this user not found</p>
+
+    <a href="#" class="back-button">Back</a>
+  </div>
+</div>

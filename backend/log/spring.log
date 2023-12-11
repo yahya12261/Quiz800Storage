@@ -1,0 +1,79 @@
+2023-12-11T17:46:05.640+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T17:46:05.861+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T17:46:06.191+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T17:46:34.745+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 31.773 seconds (process running for 7308.466)
+2023-12-11T17:46:34.767+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T17:56:04.680+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T17:56:04.682+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T17:56:04.683+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T17:56:06.676+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 2.042 seconds (process running for 7880.397)
+2023-12-11T17:56:06.681+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T17:56:17.185+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T17:56:17.188+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T17:56:17.189+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T17:56:19.205+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 2.084 seconds (process running for 7892.926)
+2023-12-11T17:56:19.207+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T17:56:42.776+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T17:56:42.780+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T17:56:42.783+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T17:56:44.355+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 1.62 seconds (process running for 7918.077)
+2023-12-11T17:56:44.369+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T17:56:53.270+02:00  INFO 18064 --- [http-nio-8081-exec-1] c.e.Storge.Controllers.ClientController  : Getting all clients
+2023-12-11T18:00:00.457+02:00  INFO 18064 --- [http-nio-8081-exec-7] c.e.Storge.Controllers.ClientController  : Updating client with ID: 0
+2023-12-11T18:00:00.468+02:00  INFO 18064 --- [http-nio-8081-exec-7] c.e.Storge.Controllers.ClientController  : Updated client details: Client(id=0, name=XOOO, lastName=XOOO, mobile=Mobile)
+2023-12-11T18:00:00.515+02:00  WARN 18064 --- [http-nio-8081-exec-7] c.e.Storge.Controllers.ClientController  : Client with ID 0 not found
+2023-12-11T18:00:26.660+02:00  INFO 18064 --- [http-nio-8081-exec-9] c.e.Storge.Controllers.ClientController  : Getting all clients
+2023-12-11T18:00:36.795+02:00  INFO 18064 --- [http-nio-8081-exec-10] c.e.Storge.Controllers.ClientController  : Updating client with ID: 1
+2023-12-11T18:00:36.799+02:00  INFO 18064 --- [http-nio-8081-exec-10] c.e.Storge.Controllers.ClientController  : Updated client details: Client(id=0, name=XOOO, lastName=XOOO, mobile=Mobile)
+2023-12-11T18:00:36.806+02:00  INFO 18064 --- [http-nio-8081-exec-10] c.e.Storge.Controllers.ClientController  : Existing client details: Client(id=1, name=XOOO, lastName=XOOO, mobile=Mobile)
+2023-12-11T18:00:36.842+02:00  INFO 18064 --- [http-nio-8081-exec-10] c.e.Storge.Controllers.ClientController  : Saved client details: Client(id=1, name=XOOO, lastName=XOOO, mobile=Mobile)
+2023-12-11T18:02:21.733+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T18:02:21.735+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T18:02:21.736+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T18:02:24.354+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 2.703 seconds (process running for 8258.076)
+2023-12-11T18:02:24.357+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T18:02:51.223+02:00  INFO 18064 --- [http-nio-8081-exec-3] c.e.S.Controllers.ProductController      : Getting all products
+2023-12-11T18:03:52.449+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T18:03:52.457+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T18:03:52.464+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T18:03:56.388+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 4.104 seconds (process running for 8350.109)
+2023-12-11T18:03:56.460+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T18:04:56.182+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T18:04:56.185+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T18:04:56.188+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T18:04:57.710+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 1.565 seconds (process running for 8411.431)
+2023-12-11T18:04:57.713+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T18:07:49.653+02:00  INFO 18064 --- [http-nio-8081-exec-3] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 254
+2023-12-11T18:08:28.608+02:00  INFO 18064 --- [http-nio-8081-exec-6] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 254
+2023-12-11T18:08:51.757+02:00  INFO 18064 --- [http-nio-8081-exec-7] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 254
+2023-12-11T18:09:44.610+02:00  INFO 18064 --- [http-nio-8081-exec-8] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 254
+2023-12-11T18:10:10.115+02:00  INFO 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 1
+2023-12-11T18:10:10.121+02:00  WARN 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Transaction with ID 1 not found
+2023-12-11T18:11:04.774+02:00  INFO 18064 --- [http-nio-8081-exec-1] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 152
+2023-12-11T18:12:55.736+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T18:12:55.737+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T18:12:55.739+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T18:12:59.261+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 3.565 seconds (process running for 8892.983)
+2023-12-11T18:12:59.288+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T18:13:03.312+02:00  INFO 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 152
+2023-12-11T18:13:03.336+02:00  INFO 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Updated transaction details: Transaction{id=152, quantity=10, price=25.0}
+2023-12-11T18:13:03.351+02:00  INFO 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Saved transaction details: Transaction{id=152, quantity=10, price=25.0}
+2023-12-11T18:13:32.233+02:00  INFO 18064 --- [http-nio-8081-exec-4] c.e.Storge.Controllers.SaleController    : Getting all sales
+2023-12-11T18:15:38.747+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T18:15:38.749+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T18:15:38.750+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T18:15:42.286+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 3.578 seconds (process running for 9056.008)
+2023-12-11T18:15:42.330+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T18:15:57.900+02:00  INFO 18064 --- [http-nio-8081-exec-3] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 152
+2023-12-11T18:15:57.943+02:00  INFO 18064 --- [http-nio-8081-exec-3] c.e.S.Controllers.TransactionController  : Updated transaction details: Transaction{id=152, quantity=15, price=25.0}
+2023-12-11T18:15:57.988+02:00  INFO 18064 --- [http-nio-8081-exec-3] c.e.S.Controllers.TransactionController  : Saved transaction details: Transaction{id=152, quantity=15, price=25.0}
+2023-12-11T18:18:13.834+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Starting StorgeApplication using Java 17.0.9 with PID 18064 (C:\Users\hp\Desktop\Storge\Storge\target\classes started by hp in C:\Users\hp\Desktop\Storge\Storge)
+2023-12-11T18:18:13.836+02:00 DEBUG 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Running with Spring Boot v3.2.1-SNAPSHOT, Spring v6.1.2-SNAPSHOT
+2023-12-11T18:18:13.837+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-11T18:18:16.521+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Started StorgeApplication in 2.75 seconds (process running for 9210.242)
+2023-12-11T18:18:16.531+02:00  INFO 18064 --- [restartedMain] com.example.Storge.StorgeApplication     : Application Start
+2023-12-11T18:18:36.637+02:00  INFO 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Updating transaction with ID: 152
+2023-12-11T18:18:36.674+02:00  INFO 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Quantity updated from 15 to 45
+2023-12-11T18:18:36.678+02:00  INFO 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Updated transaction details: Transaction{id=152, quantity=45, price=25.0}
+2023-12-11T18:18:36.709+02:00  INFO 18064 --- [http-nio-8081-exec-2] c.e.S.Controllers.TransactionController  : Saved transaction details: Transaction{id=152, quantity=45, price=25.0}
+2023-12-11T18:19:23.389+02:00  INFO 18064 --- [http-nio-8081-exec-3] c.e.Storge.Controllers.SaleController    : Getting all sales

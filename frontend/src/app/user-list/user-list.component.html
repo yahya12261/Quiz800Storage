@@ -1,0 +1,20 @@
+<div class="user-list-container">
+  <ul class="user-list">
+    <li *ngFor="let user of users" class="user-list-item">
+      <img [src]="user.avatar" alt="User Avatar" class="avatar">
+      <div class="user-details">
+        <h3>{{ user.first_name }} {{ user.last_name }}</h3>
+        <p>ID: {{ user.id }}</p>
+
+  <button (click)="ShowUserMore(user)" class="more-button"><span>Read More</span></button>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="pagination" >
+<div *ngFor="let i of gatePageCount(1)">
+
+  <a  href="#" class={{pageNow(i)}} (click)="getUserFromPage(i)">{{i}}</a></div>
+
+  <!-- Add more pagination links here -->
+</div>

@@ -1,0 +1,108 @@
+@startuml
+
+package "com.example.Storge.Models" {
+    class Transaction {
+        - id: int
+        - product: Product
+        - sale: Sale
+        - quantity: int
+        - price: double
+        + Transaction(int id, Product product, Sale sale, int quantity, double price)
+        + getId(): int
+        + setId(int id): void
+        + getProduct(): Product
+        + setProduct(Product product): void
+        + getQuantity(): int
+        + setQuantity(int quantity): void
+        + getPrice(): double
+        + setPrice(double price): void
+        + getSale(): Sale
+        + setSale(Sale sale): void
+        + toString(): String
+    }
+    
+    class Client {
+        - id: int
+        - name: String
+        - lastName: String
+        - mobile: String
+        + Client()
+        + getId(): int
+        + setId(int id): void
+        + getName(): String
+        + setName(String name): void
+        + getLastName(): String
+        + setLastName(String lastName): void
+        + getMobile(): String
+        + setMobile(String mobile): void
+    }
+    
+    class Product {
+        - id: int
+        - name: String
+        - price: double
+        + Product()
+        + getId(): int
+        + setId(int id): void
+        + getName(): String
+        + setName(String name): void
+        + getPrice(): double
+        + setPrice(double price): void
+    }
+    
+    class Sale {
+        - id: int
+        - client :Client
+        - name: String
+        - total: double
+        + Sale()
+        + getId(): int
+        + setId(int id): void
+
+        + getName(): String
+        + setName(String name): void
+        + getTotal(): double
+        + setTotal(double total): void
+    }
+}
+
+package "com.example.Storge.Repositories" {
+    interface ClientRepository {
+        + save(client: Client): Client
+        + findById(id: int): Optional<Client>
+        + delete(client: Client): void
+        + findAll(): List<Client>
+        // Other methods inherited from JpaRepository
+    }
+    
+    interface ProductRepository {
+        + save(product: Product): Product
+        + findById(id: int): Optional<Product>
+        + delete(product: Product): void
+        + findAll(): List<Product>
+        // Other methods inherited from JpaRepository
+    }
+    
+    interface SaleRepository {
+        + save(sale: Sale): Sale
+        + findById(id: int): Optional<Sale>
+        + delete(sale: Sale): void
+        + findAll(): List<Sale>
+        // Other methods inherited from JpaRepository
+    }
+    
+    interface TransactionRepository {
+        + save(transaction: Transaction): Transaction
+        + findById(id: int): Optional<Transaction>
+        + delete(transaction: Transaction): void
+        + findAll(): List<Transaction>
+        // Other methods inherited from JpaRepository
+    }
+}
+Sale *-- "1" Client
+Transaction --* Product
+Transaction --* Sale
+Transaction "1" --* "1" Product
+Transaction "1" --* "1" Sale
+
+@enduml
